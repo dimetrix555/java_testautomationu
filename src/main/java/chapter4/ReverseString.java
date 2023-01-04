@@ -25,7 +25,7 @@ public class ReverseString {
     public static String reverse2(String input) {
         String reversedStr = "";
         for (int i = input.length() - 1; i >= 0; i--) {
-            reversedStr = input.charAt(i) + reversedStr;
+            reversedStr = reversedStr + input.charAt(i);
         }
         return reversedStr;
     }
